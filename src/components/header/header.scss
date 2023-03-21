@@ -1,0 +1,53 @@
+@import "../../common_utilities/styles/variables";
+@import "../../common_utilities/styles/breakpoints";
+
+header {
+    display: flex;
+    position: relative;
+    
+    .logo-image {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        right: 0;
+        top: calc(50% - 10px)
+    }
+    
+    .title-logo {
+        color: $blueLogo;
+        text-align: center;
+        width: 100%;
+        font-weight: bold;
+    }
+    .nav-list {
+        display: none;
+    }
+    .active{
+        list-style-type: none;
+    }
+    .link{
+        text-decoration: none;
+    }
+
+    @include sm{
+        position: static;
+        justify-content: space-between;
+        .logo-image{
+            display: none;
+        }
+        .title-logo{
+            width: auto;
+            font-size:xx-large;
+        }
+        .nav-list{
+            display: flex;
+            padding: 0;
+        }
+        .nav-items{
+            // display: inline-block;
+            align-self: center;
+            margin-right: 10%;
+            list-style-type: none;
+        }
+    }
+}

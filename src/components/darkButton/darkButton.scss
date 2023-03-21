@@ -1,0 +1,11 @@
+@import "../../common_utilities/styles/variables";
+
+.button {
+    background-color: $darkGray;
+    color: $grayBackground;
+    border: none;
+}
+
+.dark-button:disabled {
+    background-color: lightgrey;
+  }

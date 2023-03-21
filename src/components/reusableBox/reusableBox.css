@@ -1,0 +1,23 @@
+.reusable-box {
+  color: #484848;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20% 0%;
+}
+@media (min-width: 426px) {
+  .reusable-box {
+    display: block;
+    padding: 0%;
+    margin-bottom: 5%;
+  }
+}
+@media (min-width: 426px) {
+  .reusable-box .reusable-title {
+    font-size: 400%;
+  }
+}
+
+.error {
+  color: #f9b781;
+}/*# sourceMappingURL=reusableBox.css.map */

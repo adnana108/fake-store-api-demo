@@ -1,0 +1,15 @@
+body {
+  background-color: #eff3f4;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.hover:hover {
+  cursor: pointer;
+}
+
+.blue-button {
+  background-color: #2886bb;
+  border: none;
+  color: #eff3f4;
+}/*# sourceMappingURL=main.css.map */

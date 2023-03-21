@@ -1,0 +1,14 @@
+@import "./variables";
+body{
+    background-color: $grayBackground;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.hover:hover{
+    cursor: pointer;
+}
+.blue-button{
+    background-color: $blueLogo;
+    border: none;
+    color:$grayBackground;
+  }

@@ -1,0 +1,17 @@
+.item-container {
+  width: 80%;
+  height: 300px;
+  place-self: center;
+}
+@media (min-width: 426px) {
+  .item-container {
+    width: 100%;
+  }
+}
+.item-container img {
+  width: 100%;
+  height: 80%;
+}
+.item-container .product-title {
+  font-size: 0.7rem;
+}/*# sourceMappingURL=card.css.map */

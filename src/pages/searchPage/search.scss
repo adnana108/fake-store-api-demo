@@ -1,0 +1,38 @@
+@import "../../common_utilities/styles/breakpoints";
+@import "../../common_utilities/styles/variables";
+
+.search-page {
+
+    .search-form {
+        display: flex;
+        flex-direction: column;
+        
+        input,
+        button {
+            margin: 0% 5% 5% 5%; 
+            
+            @include sm {
+               margin:0% 0%;
+            }
+        }
+        
+    }
+
+    .repo-cards {
+        padding: 0;
+        display: grid;
+        grid-template-columns:  1fr;
+    
+        @include sm{
+            padding-top: 5%;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap:5%;
+        }
+    }
+
+    @include sm {
+        .search-form {
+            flex-direction: row;
+        }
+    }
+}

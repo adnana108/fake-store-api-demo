@@ -1,0 +1,9 @@
+.button {
+  background-color: #484848;
+  color: #eff3f4;
+  border: none;
+}
+
+.dark-button:disabled {
+  background-color: lightgrey;
+}/*# sourceMappingURL=darkButton.css.map */

@@ -1,0 +1,24 @@
+@import "../../common_utilities/styles/variables";
+@import "../../common_utilities/styles/breakpoints";
+
+.main-login {
+
+   .container-field {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 5%;
+
+      @include sm {
+         display: block;
+         padding-bottom: 3%;
+      }
+
+      label {
+         @include sm {
+            display: inline-block;
+            width: 10%;
+         }
+      }
+   }
+}
